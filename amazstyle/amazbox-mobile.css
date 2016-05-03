@@ -1,0 +1,282 @@
+@media screen and (max-width: 320px) {
+	
+.row {
+	min-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.logo {padding-left: 12px;}
+.logo p  {text-indent: -9999px; display: none;}
+
+.search {display: none;}
+
+.nav {
+	min-width: 290px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background: #006699;
+
+}
+
+.nav ul {list-style: none; line-height: 1em; overflow: hidden; margin: 0 ; padding: 8px 4px; vertical-align: middle;}
+.nav ul li {
+	display: inline;
+	margin: 0 12px 0 0;
+	font-family: 'proxima-nova','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.nav ul li a {
+	color: #fff;
+	font-size: 16px;
+	padding: 8px 0 10px 0;
+	font-weight: 700;
+	vertical-align: middle;
+}
+
+
+.nav .current {display: none;}
+
+.tuijian {display: none;}
+
+/* 中间卡片内容*/
+.main {margin-top:20px;}
+.card { margin-left: 10px; margin-right: 10px;background-color: #fff; overflow: hidden; border:1px solid #eaeaea; border-radius: 4px; }
+.card h2 {font-size: 16px; font-weight: 700; margin: 2px 0 12px; color: #4c4c4c; border-bottom: 1px solid #eaeaea;}
+.card a {
+	float: left;
+	font-size: 10px;
+	
+	font-weight: normal;
+}
+.card .itemdes {display:none;}
+
+
+/*单个卡片内容*/
+.item {
+    width: 18%;
+    text-align: center;
+    margin: 0 4px 12px 0;
+    color: #bbb;
+    background-color: #f6f6f6;
+    border-radius: 4px;
+    padding: 4px 6px 0px 6px;
+	 }
+
+.item h4 {
+	color: #336699;
+    font-size: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    
+}
+
+.item i {text-align: center;}
+
+
+/*底部*/
+.footer {
+	margin: 15px 0 0;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666;
+	border-top: 1px solid #eaeaea;
+	background: #f9f9f9;
+}
+
+.footer a img {  width:16px; height: 16px; margin:0 ;vertical-align: middle;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+.row {
+	min-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.logo {padding-left: 12px;}
+.logo p  {text-indent: -9999px; display: none;}
+
+.search {display: none;}
+
+.nav {
+	min-width: 340px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background: #006699;
+
+}
+
+.nav ul {list-style: none; line-height: 2em; overflow: hidden; margin: 0 ; padding: 8px 4px; vertical-align: middle;}
+.nav ul li {
+	display: inline;
+	margin: 0 12px 0 0;
+	font-family: 'proxima-nova','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.nav ul li a {
+	color: #fff;
+	font-size: 16px;
+	padding: 8px 0 10px 0;
+	font-weight: 700;
+	vertical-align: middle;
+}
+
+.nav ul .current {margin-left: 12px;}
+
+.tuijian {display: none;}
+
+/* 中间卡片内容*/
+.main {margin-top:20px;}
+.card { margin-left: 10px; margin-right: 10px;background-color: #fff; overflow: hidden; border:1px solid #eaeaea; border-radius: 4px; }
+.card h2 {font-size: 16px; font-weight: 700; margin: 2px 0 12px; color: #4c4c4c; border-bottom: 1px solid #eaeaea;}
+.card a {
+	float: left;
+	font-size: 10px;
+	font-weight: normal;
+}
+.card .itemdes {display:none;}
+
+.card a i {
+			background: url(../amazimages/amaz_sprite.png)  no-repeat;
+			width:30px;
+			height: 30px;
+			float: left;
+			border-radius: 5px;
+		    margin-left: 20px;
+		    margin-right: 5px;
+		    margin-bottom: 5px;
+
+			}
+/*单个卡片内容*/
+.item {
+    width: 24%;
+    text-align: center;
+    margin: 0 4px 12px 0;
+    color: #bbb;
+    background-color: #f6f6f6;
+    border-radius: 4px;
+    padding: 4px 6px 0px 6px;
+	 }
+
+.item h4 {
+	color: #336699;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    
+}
+
+.item i {text-align: center;}
+
+/*底部*/
+.footer {
+	margin: 15px 0 0;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666;
+	border-top: 1px solid #eaeaea;
+	background: #f9f9f9;
+	position: relative;
+}
+
+.footer a img {  width:16px; height: 16px; margin:0 ;vertical-align: middle;}
+
+
+
+}
+
+
+@media screen and (min-width: 480px) and  (max-width: 720px) {
+
+.row {
+	min-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+.nav {
+	min-width: 520px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background: #006699;
+
+}
+
+.tuijian {display: none;}
+
+.main {margin-top:20px;}
+.card { margin-left: 10px; margin-right: 10px;background-color: #fff; overflow: hidden; border:1px solid #eaeaea; border-radius: 4px; }
+.card h2 {font-size: 16px; font-weight: 700; margin: 2px 0 12px; color: #4c4c4c; border-bottom: 1px solid #eaeaea;}
+.card a {
+	float: left;
+	font-size: 10px;
+	
+	font-weight: normal;
+}
+
+/*单个卡片内容*/
+.item {
+	width: 24%;
+	text-align: left; 
+	margin: 0 12px 10px 0; 
+	height: 80px; 
+	color: #bbb; 
+	background-color: #f6f6f6; 
+	border-radius: 5px; 
+	padding: 6px 16px;
+ }
+
+.item h4 {
+	color: #336699;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    
+}
+
+span.itemdes {text-align: left; color: #333; font-size: 8px;}
+
+
+
+
+
+}
